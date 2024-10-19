@@ -1,0 +1,43 @@
+/* Padding adalah jarak antara konten dalam elemen dan batas luar elemen tersebut */
+/* Margin jarak antara batas luar elemen dan elemen-elemen di sekitarnya */
+/* Flex pendekatan tata letak fleksibel yang disediakan oleh CSS Flexbox */
+
+*,
+html,
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Silkscreen', cursive;
+}
+
+/* root itu seperti tipe bentukan digolang jadinya variabelnya bisa selalu dipanggil */
+:root {
+    --bg-primary: midnightblue;
+    --bg-secondary: grey;
+    --txt-primary: rgb(255, 241, 44);
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--bg-primary);
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.card {
+    border: 2px solid white;
+    background-color: var(--bg-secondary);
+    color: var(--txt-primary);
+    padding: 32px;
+    margin: 8px;
+}
+
+.text-center {
+    text-align: center;
+}
