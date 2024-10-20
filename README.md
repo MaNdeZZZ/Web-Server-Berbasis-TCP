@@ -7,6 +7,7 @@ Proyek ini terdiri dari dua bagian: server dan client yang berkomunikasi menggun
 - Mengirimkan respon HTTP 200 OK jika file ditemukan, atau 404 Not Found jika file tidak ditemukan.
 - Menggunakan multi-threading untuk menangani beberapa koneksi secara bersamaan.
 - Dikonfigurasi dengan alamat IP dan port yang dapat disesuaikan.
+
 **Client**
 - Mengirimkan permintaan HTTP GET ke server.
 - Menerima dan menampilkan respon dari server.
